@@ -2,8 +2,8 @@ Microservice responsible for bank account operations.
 
 ## Installation and execution
 1. Download project.
-2. Generate the jar file with command mvn package.
-3. Execute ```java -jar target/bank-account-0.0.1-SNAPSHOT.jar``` or ```mvn spring-boot:run``` (the project will be available at the port 8080)
+2. Generate the jar file with command ```mvn package```.
+3. Execute ```java -jar target/bank-account-0.0.1-SNAPSHOT.jar``` or ```mvn spring-boot:run``` (the project will be available at the port 8080).
 
 ## Running in docker
 1. Create an image: ```docker build -t "bank-account:v1" .```
@@ -12,8 +12,8 @@ Microservice responsible for bank account operations.
 ## Database
 Database was created in H2.
 <br />Available on URL http://localhost:8080/api/h2-console.
-<br />jdbc url: jdbc:h2:mem:bankdb
-<br />username: sa
+<br />jdbc url: ```jdbc:h2:mem:bankdb```
+<br />username: ```sa```
 <br />password: <empty>
 
 ## Documentation
