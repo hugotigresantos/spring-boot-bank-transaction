@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<swagger.version>3.0.0-SNAPSHOT</swagger.version>
-		<junit.version>4.13</junit.version>
+		<junit.version>4.13.1</junit.version>
 	</properties>
 
 	<dependencies>
